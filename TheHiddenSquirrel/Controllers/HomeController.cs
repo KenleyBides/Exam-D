@@ -26,6 +26,11 @@ namespace TheHiddenSquirrel.Controllers
             return View("Privacy");
         }
 
+        // Map
+        public IActionResult Map()
+        {
+            return View("Map");
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
