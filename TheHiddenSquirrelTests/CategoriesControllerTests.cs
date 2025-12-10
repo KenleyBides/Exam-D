@@ -56,4 +56,13 @@ public class CategoriesControllerTests
         // assert - is category list in db the same as the data shown in the view?
         CollectionAssert.AreEqual(_context.Category.ToList(), (List<Category>)result.Model);
     }
+    
+    [TestMethod]
+    public void Delete_InvalidId_Returns404View()
+    {
+        int invalidId = -1; // no category has this ID
+        var result = (ViewResult)controller.Delete(invalidId);
+        Assert.AreEqual("404", result.ViewName);
+    }
+
 }

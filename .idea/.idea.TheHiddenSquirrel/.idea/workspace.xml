@@ -10,9 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a5f8386-47cc-44eb-8709-9e3a39975a71" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheHiddenSquirrel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheHiddenSquirrel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheHiddenSquirrel/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheHiddenSquirrel/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheHiddenSquirrel/TheHiddenSquirrel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TheHiddenSquirrel/TheHiddenSquirrel.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheHiddenSquirrel/Views/Orders/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/TheHiddenSquirrel/Views/Orders/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheHiddenSquirrelTests/CategoriesControllerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheHiddenSquirrelTests/CategoriesControllerTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765372230236</updated>
-      <workItem from="1765372231682" duration="4307000" />
+      <workItem from="1765372231682" duration="4970000" />
     </task>
     <task id="LOCAL-00001" summary="Exam D">
       <option name="closed" value="true" />
@@ -179,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765375657576</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="6 and 7">
+      <option name="closed" value="true" />
+      <created>1765376836004</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765376836004</updated>
+    </task>
+    <task id="LOCAL-00011" summary="6 and 7">
+      <option name="closed" value="true" />
+      <created>1765376850457</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765376850457</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +221,8 @@
     <MESSAGE value="4" />
     <MESSAGE value="5" />
     <MESSAGE value="No 6." />
-    <option name="LAST_COMMIT_MESSAGE" value="No 6." />
+    <MESSAGE value="6 and 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 and 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
