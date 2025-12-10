@@ -8,9 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a5f8386-47cc-44eb-8709-9e3a39975a71" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TheHiddenSquirrel/Views/Map/Map.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/TheHiddenSquirrel/Views/Home/Map.cshtml" afterDir="false" />
-    </list>
+    <list default="true" id="8a5f8386-47cc-44eb-8709-9e3a39975a71" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765372230236</updated>
-      <workItem from="1765372231682" duration="1543000" />
+      <workItem from="1765372231682" duration="1873000" />
     </task>
     <task id="LOCAL-00001" summary="Exam D">
       <option name="closed" value="true" />
@@ -136,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765373504841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3">
+      <option name="closed" value="true" />
+      <created>1765373943519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765373943519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +166,8 @@
     <MESSAGE value="Exam D" />
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
