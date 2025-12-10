@@ -76,21 +76,25 @@
     <h2>Order Details</h2>
     <table class="table table-striped table-hover">
         <thead>
-            <tr>
-                <td>Quantity</td>
-                <td>Price</td>
-                <td>Product</td>
-            </tr>
+        <tr>
+            <td>Quantity</td>
+            <td>Price</td>
+            <td>Product</td>
+            <td>Sub-Total</td>
+        </tr>
         </thead>
         <tbody>
-            @foreach (var detail in Model.OrderDetails)
-            {
-                <tr>
-                    <td>@detail.Quantity</td>
-                    <td>@String.Format("{0:c}", detail.Price)</td>
-                    <td>@detail.Product.Name</td>
-                </tr>
-            }
+        @foreach (var detail in Model.OrderDetails)
+        {
+            <tr>
+                <td>@detail.Quantity</td>
+                <td>@String.Format("{0:c}", detail.Price)</td>
+                <td>@detail.Product.Name</td>
+
+                <!-- calc -->
+                <td>@String.Format("{0:c}", detail.Quantity * detail.Price)</td>
+            </tr>
+        }
         </tbody>
     </table>
 </section>

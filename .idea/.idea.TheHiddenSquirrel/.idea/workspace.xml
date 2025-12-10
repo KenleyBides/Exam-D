@@ -8,7 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a5f8386-47cc-44eb-8709-9e3a39975a71" name="Changes" comment="" />
+    <list default="true" id="8a5f8386-47cc-44eb-8709-9e3a39975a71" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheHiddenSquirrel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheHiddenSquirrel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheHiddenSquirrel/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheHiddenSquirrel/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheHiddenSquirrel/TheHiddenSquirrel.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TheHiddenSquirrel/TheHiddenSquirrel.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheHiddenSquirrel/Views/Orders/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/TheHiddenSquirrel/Views/Orders/Details.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765372230236</updated>
-      <workItem from="1765372231682" duration="3232000" />
+      <workItem from="1765372231682" duration="4307000" />
     </task>
     <task id="LOCAL-00001" summary="Exam D">
       <option name="closed" value="true" />
@@ -166,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765375320696</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="No 6.">
+      <option name="closed" value="true" />
+      <created>1765375657576</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765375657576</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +206,8 @@
     <MESSAGE value="3" />
     <MESSAGE value="4" />
     <MESSAGE value="5" />
-    <option name="LAST_COMMIT_MESSAGE" value="5" />
+    <MESSAGE value="No 6." />
+    <option name="LAST_COMMIT_MESSAGE" value="No 6." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

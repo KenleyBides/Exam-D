@@ -18,12 +18,19 @@ builder.Services.AddControllersWithViews();
 // enable session vars
 builder.Services.AddSession();
 
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
+    
+    
+    // created updated swagger api docs in html + css
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 else
 {
