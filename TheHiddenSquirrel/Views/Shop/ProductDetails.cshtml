@@ -1,0 +1,62 @@
+﻿@model TheHiddenSquirrel.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<h1>Product Details</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        @if (Model.Age != null)
+        {
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Age)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Age)
+            </dd>
+        }
+        @if (Model.Rating != null)
+        {
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Rating)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Rating)
+            </dd>
+        }
+    </dl>
+    <img src="~/img/placeholder.png" alt="Product Photo" />
+</div>
+<form method="post" action="/Shop/AddToCart">
+    @Html.AntiForgeryToken()
+    <fieldset class="m-3">
+        <label for="Quantity">Quantity:</label>
+        <input name="Quantity" required type="number" min="1" max="9999" />    
+    </fieldset>
+    <input name="ProductId" type="hidden" value="@Model.ProductId" />
+    <button class="btn btn-primary">Add to Cart</button>
+</form>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
