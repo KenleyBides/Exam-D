@@ -57,6 +57,7 @@ public class CategoriesControllerTests
         CollectionAssert.AreEqual(_context.Category.ToList(), (List<Category>)result.Model);
     }
     
+    // invalid
     [TestMethod]
     public void Delete_InvalidId_Returns404View()
     {
@@ -65,12 +66,16 @@ public class CategoriesControllerTests
         Assert.AreEqual("404", result.ViewName);
     }
     
+    // valid fixed
     [TestMethod]
-    public void DeleteGetValidIdReturnsView()
+    public void Delete_ValidId_RemovesCategoryAndRedirects()
     {
-        //act
-        var result = (RedirectToActionResult)controller.Delete(24);
-        //assert
-        Assert.IsNull(_context.Category.Find(24));
+        int validId = 44;
+        var result = controller.Delete(validId) as RedirectToActionResult;
+        
+        Assert.IsNotNull(result);
+        Assert.AreEqual("Index", result.ActionName);
+        Assert.IsNull(_context.Category.Find(validId));
     }
+
 }
