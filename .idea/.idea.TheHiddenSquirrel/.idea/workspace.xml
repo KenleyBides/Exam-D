@@ -9,7 +9,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a5f8386-47cc-44eb-8709-9e3a39975a71" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TheHiddenSquirrel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheHiddenSquirrel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheHiddenSquirrelTests/CategoriesControllerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TheHiddenSquirrelTests/CategoriesControllerTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +34,9 @@
     "accountId": "2342ea20-f198-4de0-8e1a-79ff4d0bac69"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/kenley/Downloads/f25-wed-starter-master/TheHiddenSquirrelTests/CategoriesControllerTests.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -103,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765372230236</updated>
-      <workItem from="1765372231682" duration="4970000" />
+      <workItem from="1765372231682" duration="5301000" />
     </task>
     <task id="LOCAL-00001" summary="Exam D">
       <option name="closed" value="true" />
@@ -193,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765376850457</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="8">
+      <option name="closed" value="true" />
+      <created>1765377365284</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765377365284</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +232,8 @@
     <MESSAGE value="5" />
     <MESSAGE value="No 6." />
     <MESSAGE value="6 and 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 and 7" />
+    <MESSAGE value="8" />
+    <option name="LAST_COMMIT_MESSAGE" value="8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

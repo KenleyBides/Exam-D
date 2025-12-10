@@ -60,9 +60,17 @@ public class CategoriesControllerTests
     [TestMethod]
     public void Delete_InvalidId_Returns404View()
     {
-        int invalidId = -1; // no category has this ID
+        int invalidId = -1; // invald id
         var result = (ViewResult)controller.Delete(invalidId);
         Assert.AreEqual("404", result.ViewName);
     }
-
+    
+    [TestMethod]
+    public void DeleteGetValidIdReturnsView()
+    {
+        //act
+        var result = (RedirectToActionResult)controller.Delete(24);
+        //assert
+        Assert.IsNull(_context.Category.Find(24));
+    }
 }
